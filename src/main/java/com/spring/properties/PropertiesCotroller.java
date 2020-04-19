@@ -20,7 +20,7 @@ public class PropertiesCotroller {
 	
 	@GetMapping("/application-property")
 	public String getApplicationProperty() {
-		return applicationProperty.getPort();
+		return applicationProperty.toString();
 	}
 	@GetMapping("/user-property")
 	public String geUserProperty() {
